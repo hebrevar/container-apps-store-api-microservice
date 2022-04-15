@@ -100,4 +100,3 @@ jobs:
                 containerRegistry=${{ env.REGISTRY }} \
                 containerRegistryUsername=${{ github.actor }} \
                 containerRegistryPassword=${{ secrets.PACKAGES_TOKEN }} \
-                deployApim = true
